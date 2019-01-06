@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row fxFlex="50%" fxLayout="row">
+    <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><a href="">Save data</a></button>
+      <button mat-menu-item><a href="">Fetch data</a></button>
+    </mat-menu>
+    <span fxFlex="auto" >Recipe book</span>
+    <span fxFlex="auto" >
+        <a href="#">Recipes</a>
+    </span>
+    <span fxFlex ="auto" >
+      <a href="#">Shoping List</a>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
