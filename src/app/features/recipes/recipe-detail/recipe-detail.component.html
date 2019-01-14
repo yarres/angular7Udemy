@@ -1,0 +1,20 @@
+<section>
+  <img src="" alt="">
+</section>
+<section>
+  <h1>Recipe name</h1>
+</section>
+<section>
+  <button mat-button [matMenuTriggerFor]="menu">Manage recipe</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Add Ingredients to shopping list</button>
+    <button mat-menu-item>Edit recipe</button>
+    <button mat-menu-item>Delete recipe</button>
+  </mat-menu>
+</section>
+<section>
+  <p>Description</p>
+</section>
+<section>
+  <p>Ingredients</p>
+</section>
